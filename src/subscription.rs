@@ -10,6 +10,7 @@ use tokio::sync::mpsc::Receiver;
 use zbus::{Connection, fdo};
 
 use crate::access::Access;
+use crate::email::Email;
 use crate::file_chooser::FileChooser;
 use crate::remote_desktop::RemoteDesktop;
 use crate::screencast::ScreenCast;
@@ -92,6 +93,7 @@ pub(crate) async fn process_changes(
 
             let connection = zbus::connection::Builder::session()
                 .serve_at(DBUS_PATH, Access::new(wayland_helper.clone(), tx.clone()))
+                .serve_at(DBUS_PATH, Email)
                 .serve_at(DBUS_PATH, FileChooser::new(tx.clone()))
                 .serve_at(
                     DBUS_PATH,

@@ -1616,6 +1616,17 @@ dependencies = [
 ]
 
 [[package]]
+name = "cosmic-mime-apps"
+version = "0.2.0"
+source = "git+https://github.com/pop-os/cosmic-mime-apps#8fc81e8857e46c018ea21ab985aaf30ac853c007"
+dependencies = [
+ "freedesktop-desktop-entry",
+ "mime 0.3.18",
+ "quick-xml 0.38.4",
+ "xdg",
+]
+
+[[package]]
 name = "cosmic-portal-config"
 version = "1.11.0"
 dependencies = [
@@ -6288,6 +6299,15 @@ dependencies = [
 
 [[package]]
 name = "quick-xml"
+version = "0.38.4"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "b66c2058c55a409d601666cffe35f04333cf1013010882cec174a7467cd4e21c"
+dependencies = [
+ "memchr",
+]
+
+[[package]]
+name = "quick-xml"
 version = "0.41.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "e660451e55124f798a69a5af3f49ccfbefbd41910eefd25caf2393e1f3473ec1"
@@ -9327,6 +9347,8 @@ dependencies = [
  "cosmic-client-toolkit",
  "cosmic-config",
  "cosmic-files",
+ "cosmic-launch",
+ "cosmic-mime-apps",
  "cosmic-portal-config",
  "cosmic-protocols",
  "dirs 6.0.0",

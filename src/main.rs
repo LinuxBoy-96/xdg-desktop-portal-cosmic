@@ -13,6 +13,7 @@ mod access;
 mod app;
 mod buffer;
 mod documents;
+mod email;
 mod file_chooser;
 mod localize;
 mod remote_desktop;

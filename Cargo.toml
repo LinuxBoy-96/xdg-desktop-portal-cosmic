@@ -19,6 +19,8 @@ cosmic-files = { git = "https://github.com/pop-os/cosmic-files", default-feature
     "gvfs",
     "wayland",
 ] }
+cosmic-launch = { git = "https://github.com/pop-os/libcosmic" }
+cosmic-mime-apps = { git = "https://github.com/pop-os/cosmic-mime-apps" }
 cosmic-protocols = { git = "https://github.com/pop-os/cosmic-protocols", rev = "c0cff4d" }
 cosmic-client-toolkit = { git = "https://github.com/pop-os/cosmic-protocols", rev = "c0cff4d" }
 futures = "0.3"
