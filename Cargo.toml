@@ -83,6 +83,22 @@ ashpd = { version = "0.13", features = ["file_chooser", "screencast"] }
 gst = { package = "gstreamer", version = "0.25.4" }
 clap = { version = "4.6.9", features = ["derive"] }
 
+[patch."https://github.com/pop-os/libcosmic"]
+build_helpers = { git = "https://github.com/LinuxBoy-96/iced", branch = "F48" }
+iced = { git = "https://github.com/LinuxBoy-96/iced", branch = "F48" }
+iced_accessibility = { git = "https://github.com/LinuxBoy-96/iced", branch = "F48" }
+iced_core = { git = "https://github.com/LinuxBoy-96/iced", branch = "F48" }
+iced_debug = { git = "https://github.com/LinuxBoy-96/iced", branch = "F48" }
+iced_futures = { git = "https://github.com/LinuxBoy-96/iced", branch = "F48" }
+iced_graphics = { git = "https://github.com/LinuxBoy-96/iced", branch = "F48" }
+iced_program = { git = "https://github.com/LinuxBoy-96/iced", branch = "F48" }
+iced_renderer = { git = "https://github.com/LinuxBoy-96/iced", branch = "F48" }
+iced_runtime = { git = "https://github.com/LinuxBoy-96/iced", branch = "F48" }
+iced_tiny_skia = { git = "https://github.com/LinuxBoy-96/iced", branch = "F48" }
+iced_wgpu = { git = "https://github.com/LinuxBoy-96/iced", branch = "F48" }
+iced_widget = { git = "https://github.com/LinuxBoy-96/iced", branch = "F48" }
+iced_winit = { git = "https://github.com/LinuxBoy-96/iced", branch = "F48" }
+
 # [patch."https://github.com/pop-os/libcosmic"]
 # libcosmic = { git = "https://github.com/pop-os/libcosmic//", branch = "theme-v2" }
 # cosmic-config = { git = "https://github.com/pop-os/libcosmic//", branch = "theme-v2" }

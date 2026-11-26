@@ -843,7 +843,7 @@ dependencies = [
 [[package]]
 name = "build_helpers"
 version = "0.14.0"
-source = "git+https://github.com/pop-os/libcosmic#be7937d5c2495d002311709d0e68c3f8f845265a"
+source = "git+https://github.com/LinuxBoy-96/iced?branch=F48#663ff880893145be60bff8df5f96ddc2bac41a98"
 dependencies = [
  "cfg_aliases",
 ]
@@ -3213,7 +3213,7 @@ dependencies = [
 [[package]]
 name = "iced"
 version = "0.14.0"
-source = "git+https://github.com/pop-os/libcosmic#be7937d5c2495d002311709d0e68c3f8f845265a"
+source = "git+https://github.com/LinuxBoy-96/iced?branch=F48#663ff880893145be60bff8df5f96ddc2bac41a98"
 dependencies = [
  "build_helpers",
  "dnd",
@@ -3235,7 +3235,7 @@ dependencies = [
 [[package]]
 name = "iced_accessibility"
 version = "0.1.0"
-source = "git+https://github.com/pop-os/libcosmic#be7937d5c2495d002311709d0e68c3f8f845265a"
+source = "git+https://github.com/LinuxBoy-96/iced?branch=F48#663ff880893145be60bff8df5f96ddc2bac41a98"
 dependencies = [
  "accesskit",
  "accesskit_winit",
@@ -3244,7 +3244,7 @@ dependencies = [
 [[package]]
 name = "iced_core"
 version = "0.14.0"
-source = "git+https://github.com/pop-os/libcosmic#be7937d5c2495d002311709d0e68c3f8f845265a"
+source = "git+https://github.com/LinuxBoy-96/iced?branch=F48#663ff880893145be60bff8df5f96ddc2bac41a98"
 dependencies = [
  "bitflags 2.13.2",
  "build_helpers",
@@ -3270,7 +3270,7 @@ dependencies = [
 [[package]]
 name = "iced_debug"
 version = "0.14.0"
-source = "git+https://github.com/pop-os/libcosmic#be7937d5c2495d002311709d0e68c3f8f845265a"
+source = "git+https://github.com/LinuxBoy-96/iced?branch=F48#663ff880893145be60bff8df5f96ddc2bac41a98"
 dependencies = [
  "iced_core",
  "iced_futures",
@@ -3280,7 +3280,7 @@ dependencies = [
 [[package]]
 name = "iced_futures"
 version = "0.14.0"
-source = "git+https://github.com/pop-os/libcosmic#be7937d5c2495d002311709d0e68c3f8f845265a"
+source = "git+https://github.com/LinuxBoy-96/iced?branch=F48#663ff880893145be60bff8df5f96ddc2bac41a98"
 dependencies = [
  "futures",
  "iced_core",
@@ -3294,7 +3294,7 @@ dependencies = [
 [[package]]
 name = "iced_graphics"
 version = "0.14.0"
-source = "git+https://github.com/pop-os/libcosmic#be7937d5c2495d002311709d0e68c3f8f845265a"
+source = "git+https://github.com/LinuxBoy-96/iced?branch=F48#663ff880893145be60bff8df5f96ddc2bac41a98"
 dependencies = [
  "bitflags 2.13.2",
  "bytemuck",
@@ -3315,7 +3315,7 @@ dependencies = [
 [[package]]
 name = "iced_program"
 version = "0.14.0"
-source = "git+https://github.com/pop-os/libcosmic#be7937d5c2495d002311709d0e68c3f8f845265a"
+source = "git+https://github.com/LinuxBoy-96/iced?branch=F48#663ff880893145be60bff8df5f96ddc2bac41a98"
 dependencies = [
  "iced_graphics",
  "iced_runtime",
@@ -3324,7 +3324,7 @@ dependencies = [
 [[package]]
 name = "iced_renderer"
 version = "0.14.0"
-source = "git+https://github.com/pop-os/libcosmic#be7937d5c2495d002311709d0e68c3f8f845265a"
+source = "git+https://github.com/LinuxBoy-96/iced?branch=F48#663ff880893145be60bff8df5f96ddc2bac41a98"
 dependencies = [
  "iced_graphics",
  "iced_tiny_skia",
@@ -3336,7 +3336,7 @@ dependencies = [
 [[package]]
 name = "iced_runtime"
 version = "0.14.0"
-source = "git+https://github.com/pop-os/libcosmic#be7937d5c2495d002311709d0e68c3f8f845265a"
+source = "git+https://github.com/LinuxBoy-96/iced?branch=F48#663ff880893145be60bff8df5f96ddc2bac41a98"
 dependencies = [
  "build_helpers",
  "bytes",
@@ -3352,7 +3352,7 @@ dependencies = [
 [[package]]
 name = "iced_tiny_skia"
 version = "0.14.0"
-source = "git+https://github.com/pop-os/libcosmic#be7937d5c2495d002311709d0e68c3f8f845265a"
+source = "git+https://github.com/LinuxBoy-96/iced?branch=F48#663ff880893145be60bff8df5f96ddc2bac41a98"
 dependencies = [
  "bytemuck",
  "cosmic-text",
@@ -3369,7 +3369,7 @@ dependencies = [
 [[package]]
 name = "iced_wgpu"
 version = "0.14.0"
-source = "git+https://github.com/pop-os/libcosmic#be7937d5c2495d002311709d0e68c3f8f845265a"
+source = "git+https://github.com/LinuxBoy-96/iced?branch=F48#663ff880893145be60bff8df5f96ddc2bac41a98"
 dependencies = [
  "as-raw-xcb-connection",
  "bitflags 2.13.2",
@@ -3401,7 +3401,7 @@ dependencies = [
 [[package]]
 name = "iced_widget"
 version = "0.14.2"
-source = "git+https://github.com/pop-os/libcosmic#be7937d5c2495d002311709d0e68c3f8f845265a"
+source = "git+https://github.com/LinuxBoy-96/iced?branch=F48#663ff880893145be60bff8df5f96ddc2bac41a98"
 dependencies = [
  "build_helpers",
  "cosmic-client-toolkit",
@@ -3420,7 +3420,7 @@ dependencies = [
 [[package]]
 name = "iced_winit"
 version = "0.14.0"
-source = "git+https://github.com/pop-os/libcosmic#be7937d5c2495d002311709d0e68c3f8f845265a"
+source = "git+https://github.com/LinuxBoy-96/iced?branch=F48#663ff880893145be60bff8df5f96ddc2bac41a98"
 dependencies = [
  "build_helpers",
  "cosmic-client-toolkit",
